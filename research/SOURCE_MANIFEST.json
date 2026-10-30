@@ -1,0 +1,567 @@
+{
+  "scope": "Laptop source snapshot; not a pull from current Jetson filesystem",
+  "original_sources_unchanged": true,
+  "files": [
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/isaac_validate.py",
+      "path": "research/analysis/isaac_validate.py",
+      "sha256": "287482f87583ce1548beb31235664572abe8510264eac12acdbf5eb0a7157233"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/prepare.py",
+      "path": "research/analysis/prepare.py",
+      "sha256": "55a153aeef36ffc757920dbc022650cf5ae3026b05516555fde79cc3978407de"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/plan_base.py",
+      "path": "research/analysis/plan_base.py",
+      "sha256": "de874d0166bc6d697dc347f5a9bb08f9217e68aa990ca05ab690d48ba33173c7"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/analyze_workspace.py",
+      "path": "research/analysis/analyze_workspace.py",
+      "sha256": "f2f506dbceb36b332970a08d73d42b46daacb268e4e97f95cb0ee05a590ac935"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/README.md",
+      "path": "research/analysis/README.md",
+      "sha256": "2ef8792e545c18b9783107a0fd49b9f91b6e4e461cdb55548becde81f42b8cf1"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/requirements.txt",
+      "path": "research/analysis/requirements.txt",
+      "sha256": "bca12dbe04b5e2e9edb4f594dbc3bbb75d60f4b99897bbdcb8c757fec8fb6562"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/visualize_plan.py",
+      "path": "research/analysis/visualize_plan.py",
+      "sha256": "c10c703086fec8ea7ef2fb484f6385354dabfa31cb91b5cd2ab3d515f73c79f3"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/tb3_grasp/__init__.py",
+      "path": "research/analysis/tb3_grasp/__init__.py",
+      "sha256": "99b4275be8c2132e17e4704b92e83560f62eff4f9119e5442ebfe984332f0957"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/tb3_grasp/planner.py",
+      "path": "research/analysis/tb3_grasp/planner.py",
+      "sha256": "11fff6262bce937555472a4c9093a092742de63c2b2462ae0d32b0d83a5e2c54"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/tb3_grasp/model.py",
+      "path": "research/analysis/tb3_grasp/model.py",
+      "sha256": "ba83f4fefbf0ba8b978d458366d9308e68c74528a8665c329df2f765d8914f64"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/tests/test_planning.py",
+      "path": "research/analysis/tests/test_planning.py",
+      "sha256": "fbf5a0e9be683ac9bde46a95b2f147d0e21655289c635f139f187b7299126039"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/CMakeLists.txt",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/CMakeLists.txt",
+      "sha256": "b14dd99e2007691e825eb6fb8efb8e30b5ddc6d8931aa376384b278a1aa0a0b7"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/CHANGELOG.rst",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/CHANGELOG.rst",
+      "sha256": "979c768eb75b8d7dd2ed72114308402cfa6cec90d78d5b4a43a3773ec2cd71c6"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/package.xml",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/package.xml",
+      "sha256": "626a5f18b51b747cbbf8ae5f9788254adb3adec12970967a34c3e706d04a60af"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro",
+      "sha256": "c7dc19191d4d6ac41c08aab285e9d8dd37d8d0494f800b4fda0e56fc6091d580"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro",
+      "sha256": "78f40107b423fb5881b63ec3bd2e66b33982000512b577cd1506be9a97eb6465"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro",
+      "sha256": "8317a404e0c6f59af6bac2842a6b6677a3c94a5ab21841ed5ea9a11f41ade8b8"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl",
+      "sha256": "407aaf271ba7051c6186b220e1dc36b2a6eca688fced66a3347f49747b684596"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl",
+      "sha256": "706230121a287ff953c4c84d344014a147fc27615b0e95221aaf04cb0dca7e42"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl",
+      "sha256": "578c9452ee51c2f71e5e6723b503d784e58a6ac317fa53ee308e645f204c8d6a"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl",
+      "sha256": "98f0bd7046159f83caab9509293112ef13534368535669124b91b5114c3132f6"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl",
+      "sha256": "9da72baf0854e0335bf0fe199da3676c57625e17277a4fa455b995130b29ffab"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl",
+      "sha256": "fb4dfabe68712bbba34deb9f8469f9187009c07579dccd5401b82d08de425267"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl",
+      "sha256": "a5bfc10a067c806a19062e2fcb58989623a09edc0e9bbc4fd735a56d83f99752"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl",
+      "sha256": "75e7596295dd5f5cbc68d81b2c875058f28721f98d7402d2d431ccf2334b57a6"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl",
+      "sha256": "20a6cc8a673b90ab02f97e4c2f0437ff692e71daded8a82a77b54254ae877c66"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl",
+      "sha256": "d2b84e13ccd3f923148bb26c95723bb3c9e7af0a7cc85cd315ee70ce7629dd1f"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl",
+      "sha256": "e6904447bca7888acb6a3a170d220b12e92f6dbf53c560987527cfd115f6eb19"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro",
+      "sha256": "9804256c8fa8087388c345479d6a5e269d6a81fe5070282378508eee582a36af"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/rviz/model.rviz",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/rviz/model.rviz",
+      "sha256": "d83296df6c557cd04862397b72c5135977f2db26835811b9878b89065dc5e0fc"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/launch/model.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/launch/model.launch.py",
+      "sha256": "1d9075e50fb925dc90e5fafc69bf7dfb8f481a22837164f57b7f7563c6a63f52"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro",
+      "sha256": "b1fc0ace39328fefb724edb03fc7d9a09fc6e4756a2aef08443bdb386e0ff9e1"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/gazebo/materials.xacro",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/gazebo/materials.xacro",
+      "sha256": "f97263c04e42b42f0f02423018ee17a831543f7d4957ffa12b6805846c502273"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro",
+      "sha256": "62ba6e278bdddfb6e6b363e69154b7d8fd44f613703ca14017d7250d2013d9d0"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/CMakeLists.txt",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/CMakeLists.txt",
+      "sha256": "6a2b9d4673bb6fd5cf3151d5c428a06d6ed981585265ef6647166c7c6098523c"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/CHANGELOG.rst",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/CHANGELOG.rst",
+      "sha256": "a5a45dd95370b5fdefb363fee2d0cd9d948f12b5ab3efbc3352e1df14f706293"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/.setup_assistant",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/.setup_assistant",
+      "sha256": "d3839f036c8e2e75aaaae0634ea3a8601c511b4d08c3aac6a0f6be0060514322"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/package.xml",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/package.xml",
+      "sha256": "9ea68f4d0e8a5936d68de7acdcef1f5631a5e307950e59e0404b2d9107ddbdf8"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/move_group.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/move_group.launch.py",
+      "sha256": "bff0e464da127d0744f0fb96647d01bcbb54b561ae1176a279847cd7147f0d32"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/setup_assistant.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/setup_assistant.launch.py",
+      "sha256": "76abeaefbb446e3180e07d3778a6828279ff75c7208653bed3d962b3a4e73a5d"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/rsp.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/rsp.launch.py",
+      "sha256": "cce75841b3bde51479b15672bd06262f5e3342abd914594faaa861737abcc64d"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/spawn_controllers.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/spawn_controllers.launch.py",
+      "sha256": "73da4dfc3f5a18c6bef2c48e4888ca35651c6be6dfcdb5ae1c1b0c3178450b15"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_fake.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_fake.launch.py",
+      "sha256": "515414a7b84adb0c9e90ab20bbfc50da32f6e740994ed6d50c59ff62f6d72a4e"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_gazebo.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_gazebo.launch.py",
+      "sha256": "e12b1af502c6aa3ad45d5398fbb4ef6862a0ab7bb4982aefc519f6b09ecfd854"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_rviz.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_rviz.launch.py",
+      "sha256": "f4278078d57fb1dfaba9198921e92797fdf3cc353e73e661f8a661b29931fb27"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/servo.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/servo.launch.py",
+      "sha256": "f24f28173ba9d78eefba4134be07c703ea071caf9ae56d3ab9eb6a2cdf339f1f"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_core.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/moveit_core.launch.py",
+      "sha256": "8509c0a9ec14bee745e3064ecfc00859371f735b1c2523ae7dcdcd592b1a16e8"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/static_virtual_joint_tfs.launch.py",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/launch/static_virtual_joint_tfs.launch.py",
+      "sha256": "f172e85209bd324ef947dad4772cc606627f48fe02a04cd7baff39de737557db"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/initial_positions.yaml",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/initial_positions.yaml",
+      "sha256": "e9a419033accb755820366fb85cfed5f56f3a2e9ff65bb86d40df85b8a28a82e"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/moveit_servo.yaml",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/moveit_servo.yaml",
+      "sha256": "fd798f9ceabfe2a97a0178dac1e3ccca522d8a387e23b1c346a81f23ffe5b0f5"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/ompl_planning.yaml",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/ompl_planning.yaml",
+      "sha256": "a6301ff19ce35459e0c3808f32d3c91436876e6a42de3abcd682c646cac565f7"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/turtlebot3_manipulation.srdf",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/turtlebot3_manipulation.srdf",
+      "sha256": "2831fe1dda7d38b1c55f569808eeb363d958b0ab188a75531c040ec37e0d1fdf"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/moveit.rviz",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/moveit.rviz",
+      "sha256": "a5d24894aea8ac2c3b128d9f82f12080c18c8a2efe903935cfbab9fca9a698b8"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/moveit_controllers.yaml",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/moveit_controllers.yaml",
+      "sha256": "ef5b7db388604a7c5c7f892a37db7c6d30659ea8eb384509a5396bfbaac4b709"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/moveit_teleop.rviz",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/moveit_teleop.rviz",
+      "sha256": "54a2bf8ca01832ba3541fb4fb5709789b6e3b45a21704906d4ccf3153d5888d9"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/kinematics.yaml",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/kinematics.yaml",
+      "sha256": "c216867a8007019d24978aea9fd59def97463f83246bfcdfd6c801ec516fe809"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/joint_limits.yaml",
+      "path": "research/analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config/config/joint_limits.yaml",
+      "sha256": "e6b8efc52b8b76f16615606a8e9cd6fa589f47378f5172b4df3bcc5cffdc4bf3"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/assets/resolved.urdf",
+      "path": "research/analysis/assets/resolved.urdf",
+      "sha256": "2ec5da1f6796e94372e438686052d36b3a81e4ec9478a41ec1ec2aa86d44e91d"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/assets/collision_bounds.json",
+      "path": "research/analysis/assets/collision_bounds.json",
+      "sha256": "3c499877512786a95fdec5739afec2243e86ade35fe41167e0a1d384ae9f1e85"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/grasp_workspace.csv",
+      "path": "research/analysis/results/grasp_workspace.csv",
+      "sha256": "df779d355da6f0d8436f6d99192a4e214fcc228563df221971be086c0419deab"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachable_workspace.csv",
+      "path": "research/analysis/results/reachable_workspace.csv",
+      "sha256": "16b824def0ff22cb60dadf08cdfa883cc944c59a423c5b09ce713a5ca7b2c41e"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/workspace_summary.json",
+      "path": "research/analysis/results/workspace_summary.json",
+      "sha256": "f40a4a4c6bf19b66409297cf7bd5140471e7edd1ad11da389bf67f06230114e2"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/isaac_validation.json",
+      "path": "research/analysis/results/isaac_validation.json",
+      "sha256": "8b3d4d1948cfa3acb6eb0f718447a16ca18e8a29856d915a81a9bfa324aebc5a"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/asset_report.json",
+      "path": "research/analysis/results/asset_report.json",
+      "sha256": "0e55f0587a128f5fa9aa4ed22d0d0be76d0cc79e7bb459121c0d893301863c86"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_collection/collection_demo.py",
+      "path": "research/analysis/sim_collection/collection_demo.py",
+      "sha256": "ddc6e914343afaa6ca8f46771dc2af7673a29131842282034f803d9072dd25b5"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_collection/prepare_scene.py",
+      "path": "research/analysis/sim_collection/prepare_scene.py",
+      "sha256": "c850a1dbafaf9d79ed7a04ceb82a186c0c36cc198ac5bf3602da9f5f118641f2"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_collection/plans.json",
+      "path": "research/analysis/sim_collection/plans.json",
+      "sha256": "b8dc4b28bb8eac599b76dcb63c0a144dee9576259f71ebfe565402df85d1b397"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_collection/README.txt",
+      "path": "research/analysis/sim_collection/README.txt",
+      "sha256": "b9a83038da7e9a1e583325f740076f17eec87f0d5465621447d351fde3ecc335"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_collection/RESULTS.txt",
+      "path": "research/analysis/sim_collection/RESULTS.txt",
+      "sha256": "269f0c297a81a09172e544603b7586a0a8834ebbf340743495c56f5e43b72ea8"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_grasp_validation/validate_and_film.py",
+      "path": "research/analysis/sim_grasp_validation/validate_and_film.py",
+      "sha256": "00deb9fdc9cd6a1373b811a50427d39f1f5ed6f5ca904c27fd210e0266252783"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_grasp_validation/prepare_candidates.py",
+      "path": "research/analysis/sim_grasp_validation/prepare_candidates.py",
+      "sha256": "4f500741b07cf8534687b62e5cc4a6441fc3dbe993c40a9cf33eb0c0ce1933ff"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_grasp_validation/prepare_pad_candidates.py",
+      "path": "research/analysis/sim_grasp_validation/prepare_pad_candidates.py",
+      "sha256": "d09e15a339da5b354cb7e2969c375fa727fe24415a9ccc43e84bfe7115196805"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_grasp_validation/render_candidates_only.py",
+      "path": "research/analysis/sim_grasp_validation/render_candidates_only.py",
+      "sha256": "bd7b05a61bb6d6c2765491c33ecd4e78d48ccae1240e3acdf3feca9872f18a09"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_grasp_validation/candidates.json",
+      "path": "research/analysis/sim_grasp_validation/candidates.json",
+      "sha256": "4f91ef25f931168ecaecff302685db7dfc12ed0b2bc2cc8a8929784a369dae5f"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/sim_grasp_validation/pad_candidates.json",
+      "path": "research/analysis/sim_grasp_validation/pad_candidates.json",
+      "sha256": "759da1a466722a96ecc8df27c23e2df1707833da8ff5627b3c8420d10f49570c"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/prepare_visualization.py",
+      "path": "research/analysis/results/reachability_1403_20261030/prepare_visualization.py",
+      "sha256": "5caddf01b5e87aed81051b864844d77040a3145d4e1534a7da0a55b518dc5bad"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/render_isaac_views.py",
+      "path": "research/analysis/results/reachability_1403_20261030/render_isaac_views.py",
+      "sha256": "efa7fa15d6ea50f74d0d806d26b450e3f15a55ce948a6254a74d0bb477383f49"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/render_data.npz",
+      "path": "research/analysis/results/reachability_1403_20261030/render_data.npz",
+      "sha256": "019796b231e7241719349cb74c44aee1aaaf9f273bc8bf13a083bab0f01a4a67"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/visualization_data.json",
+      "path": "research/analysis/results/reachability_1403_20261030/visualization_data.json",
+      "sha256": "269d72fb3e67e518dfb8639806daa8cf8001d76190d4099a12b0946869e9a007"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/grasp_workspace_link1.csv",
+      "path": "research/analysis/results/reachability_1403_20261030/grasp_workspace_link1.csv",
+      "sha256": "d4e70507be7e0e9154481c3250e1bc56c21fc8b482a2af6222b485ed38198d3d"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/banana_candidates_link1.csv",
+      "path": "research/analysis/results/reachability_1403_20261030/banana_candidates_link1.csv",
+      "sha256": "726d8d53d36977c8f8d54c04f46f97b6b1053a0888ebbd54e1777d22ba65ed4e"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/README_ko.txt",
+      "path": "research/analysis/results/reachability_1403_20261030/README_ko.txt",
+      "sha256": "3522ce8c90ce1d624cdfcc4ed93f6a01a215654a001810b3ea9781b9aebf354d"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/00_comparison_sheet.png",
+      "path": "research/analysis/results/reachability_1403_20261030/00_comparison_sheet.png",
+      "sha256": "abac23e5fbc76e3392685d0878f50ae04b00c81fcf8f95f5614fa7d26b9dc4ff"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/01_reachability_3d.png",
+      "path": "research/analysis/results/reachability_1403_20261030/01_reachability_3d.png",
+      "sha256": "b3549f3c34ac458cf24ec559b7298ae86115403743b449365b9e735c5c422a74"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/02_top_xy.png",
+      "path": "research/analysis/results/reachability_1403_20261030/02_top_xy.png",
+      "sha256": "59a55914ce8a216138237d535ae1c362197674c08c36d9ee34e2c358e447d419"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/03_side_xz.png",
+      "path": "research/analysis/results/reachability_1403_20261030/03_side_xz.png",
+      "sha256": "8d394f11e6cb3057fe3b6c92db48778f560ca94d54fae77939a5bb0194690004"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_analysis/results/reachability_1403_20261030/04_banana_comparison.png",
+      "path": "research/analysis/results/reachability_1403_20261030/04_banana_comparison.png",
+      "sha256": "6b7006121ff3810c13d6aed65efa3a4c32ce8e7b47ff2d0445b73470e7500b2b"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/executor_contract.json",
+      "path": "research/bridge/executor_contract.json",
+      "sha256": "8cfcd2f5cba8fabbb6d5e78ca568d296b969607ebf288738a8fc8e1ead5b8871"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/build_bundle.py",
+      "path": "research/bridge/build_bundle.py",
+      "sha256": "dc20750675078e5b1ca35f29c7c1211d53f99f281151b6beb1aff6dca29002ec"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/audit_planner.py",
+      "path": "research/bridge/audit_planner.py",
+      "sha256": "da9c2a5443865099d046e3c44ea9ec560a8bf13d1e53541a45d5e69d294c4c0d"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/setup.py",
+      "path": "research/bridge/setup.py",
+      "sha256": "d2cdf1f2bea34a5e8403f20a49b5b660031fe6ca6a4a1e2ef759aad7319fb7e4"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/native_probe.cpp",
+      "path": "research/bridge/native_probe.cpp",
+      "sha256": "28afc7edd3d40f9dbd096ac9170e403302847f6d635e78f905d8424f26902f24"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/setup.cfg",
+      "path": "research/bridge/setup.cfg",
+      "sha256": "474992739271e45c5ec3f76efb5719f5d934ff453d3b89672587ffda14a42c73"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/requirements-jetson.txt",
+      "path": "research/bridge/requirements-jetson.txt",
+      "sha256": "05c8b2b5261dc9229eaaa73127d3385dd8d7ca6add6c266fa54139028f4ee486"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/README.md",
+      "path": "research/bridge/README.md",
+      "sha256": "f962aed4ee651c8d6bffed6bab290275ea8342f448d3930b712f0b450b9a6317"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/DEPLOYMENT.md",
+      "path": "research/bridge/DEPLOYMENT.md",
+      "sha256": "f98195d9210318dd8f04cbc91a97e7bc572efbb0e3eda4e07781474454057e77"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/build_native.py",
+      "path": "research/bridge/build_native.py",
+      "sha256": "b2eefb1f0a05fbefa4339373018fe3dc6a32040808e7450d886a38e8b62009bc"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/package.xml",
+      "path": "research/bridge/package.xml",
+      "sha256": "74f20c98a7902f441a43ae3dae6a42a103b83255d1ef8ba0c6c86a9831588618"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/tb3_grasp_ros2/__init__.py",
+      "path": "research/bridge/tb3_grasp_ros2/__init__.py",
+      "sha256": "9f51661c5f9d49bf7335b07e71183ced79979410b520738defd0090b9923ea77"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/tb3_grasp_ros2/visual_servo.py",
+      "path": "research/bridge/tb3_grasp_ros2/visual_servo.py",
+      "sha256": "c019e43ddbcea0febaff05dc800548e20e466eb886d5ce281f379bc0ec02b26d"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/tb3_grasp_ros2/safety.py",
+      "path": "research/bridge/tb3_grasp_ros2/safety.py",
+      "sha256": "a882652e5c69f5e6c98f3521314136e2d88ad3bbb0a220282de2d7d2a55f1249"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/tb3_grasp_ros2/planner_adapter.py",
+      "path": "research/bridge/tb3_grasp_ros2/planner_adapter.py",
+      "sha256": "f510dd3f9a3cdb4ac2178cbc4a6873f03fe15426cee12bbb7ee22e92d2169c1e"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/tb3_grasp_ros2/bridge.py",
+      "path": "research/bridge/tb3_grasp_ros2/bridge.py",
+      "sha256": "890ad6c41dfa38c476b16db6e2a32b07c173e9e90b9ad54c6276eea7066d5d20"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/test/test_safety.py",
+      "path": "research/bridge/test/test_safety.py",
+      "sha256": "866463d5b21c42988ef0c213e0261999ea93eca2b40574a3a3717558b5b62a04"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/test/fake_robot.py",
+      "path": "research/bridge/test/fake_robot.py",
+      "sha256": "da41652615f986cf204a6803ad7e7dcd0aa76eac31eaf493de60404c3162c059"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/test/run_mock_tests.py",
+      "path": "research/bridge/test/run_mock_tests.py",
+      "sha256": "d9043fb1c127660749c2bafcc1731e936609ffbc821101ba517914c2becab42b"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/resource/tb3_grasp_ros2",
+      "path": "research/bridge/resource/tb3_grasp_ros2",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/reference/include/pick_and_place/grasp_kinematics.hpp",
+      "path": "research/bridge/reference/include/pick_and_place/grasp_kinematics.hpp",
+      "sha256": "ba53dce5b68a7822794c1906875ce878c73a7f15b55d039c58608715f51f0cd7"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/reference/include/pick_and_place/candidate_grasp.hpp",
+      "path": "research/bridge/reference/include/pick_and_place/candidate_grasp.hpp",
+      "sha256": "f0971af3573126cce861333f98d40389a082d4963268b7ef65de2d63e5f20f66"
+    },
+    {
+      "source": "/home/mobility/tb3_grasp_ros2/dist/wheels/python_fcl-0.7.0.11-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+      "path": "research/wheels/python_fcl-0.7.0.11-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+      "sha256": "f17a99f5686952452e1ac56729a33d8a2659b16b29eaae2a70ebc6f2b74a6842"
+    }
+  ],
+  "excluded": [
+    "credentials",
+    ".env",
+    ".venv",
+    "model weights",
+    "real camera images/depth captures",
+    "experimental logs and crash dumps",
+    "generated native binaries",
+    "USD generated caches",
+    "historical script backups"
+  ]
+}

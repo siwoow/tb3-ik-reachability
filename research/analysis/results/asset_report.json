@@ -1,0 +1,629 @@
+{
+  "original_urdf": "/home/mobility/robot_models/turtlebot3_manipulation.urdf",
+  "original_urdf_sha256": "fb51b75a1db8ab7ef689565c01045460f6ebed7bbaf9491dc0a8c440cdefe816",
+  "resolved_urdf_sha256": "2ec5da1f6796e94372e438686052d36b3a81e4ec9478a41ec1ec2aa86d44e91d",
+  "official_source": "https://github.com/ROBOTIS-GIT/turtlebot3_manipulation/tree/humble",
+  "official_commit": "814f140e8e208994dd6159f189993156e3943d98",
+  "missing_in_original_folder": [],
+  "mesh_count": 11,
+  "meshes": {
+    "package://turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl",
+      "sha256": "706230121a287ff953c4c84d344014a147fc27615b0e95221aaf04cb0dca7e42",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 7878884,
+      "official_size_bytes": 7878884,
+      "triangles": 157576
+    },
+    "package://turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl",
+      "sha256": "578c9452ee51c2f71e5e6723b503d784e58a6ac317fa53ee308e645f204c8d6a",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 1083684,
+      "official_size_bytes": 1083684,
+      "triangles": 21672
+    },
+    "package://turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl",
+      "sha256": "407aaf271ba7051c6186b220e1dc36b2a6eca688fced66a3347f49747b684596",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 1083684,
+      "official_size_bytes": 1083684,
+      "triangles": 21672
+    },
+    "package://turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl",
+      "sha256": "98f0bd7046159f83caab9509293112ef13534368535669124b91b5114c3132f6",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 728384,
+      "official_size_bytes": 728384,
+      "triangles": 14566
+    },
+    "package://turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl",
+      "sha256": "d2b84e13ccd3f923148bb26c95723bb3c9e7af0a7cc85cd315ee70ce7629dd1f",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 1068884,
+      "official_size_bytes": 1068884,
+      "triangles": 21376
+    },
+    "package://turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl",
+      "sha256": "20a6cc8a673b90ab02f97e4c2f0437ff692e71daded8a82a77b54254ae877c66",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 393384,
+      "official_size_bytes": 393384,
+      "triangles": 7866
+    },
+    "package://turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl",
+      "sha256": "e6904447bca7888acb6a3a170d220b12e92f6dbf53c560987527cfd115f6eb19",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 920684,
+      "official_size_bytes": 920684,
+      "triangles": 18412
+    },
+    "package://turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl",
+      "sha256": "9da72baf0854e0335bf0fe199da3676c57625e17277a4fa455b995130b29ffab",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 781984,
+      "official_size_bytes": 781984,
+      "triangles": 15638
+    },
+    "package://turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl",
+      "sha256": "75e7596295dd5f5cbc68d81b2c875058f28721f98d7402d2d431ccf2334b57a6",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 647984,
+      "official_size_bytes": 647984,
+      "triangles": 12958
+    },
+    "package://turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl",
+      "sha256": "fb4dfabe68712bbba34deb9f8469f9187009c07579dccd5401b82d08de425267",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 134184,
+      "official_size_bytes": 134184,
+      "triangles": 2682
+    },
+    "package://turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl": {
+      "resolved": "/home/mobility/tb3_grasp_analysis/vendor/turtlebot3_manipulation/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl",
+      "sha256": "a5bfc10a067c806a19062e2fcb58989623a09edc0e9bbc4fd735a56d83f99752",
+      "local_present": true,
+      "local_matches_official": true,
+      "local_size_bytes": 135684,
+      "official_size_bytes": 135684,
+      "triangles": 2712
+    }
+  },
+  "asset_policy": "Pinned official mesh snapshot, original URDF kinematics/collision definitions unchanged; local mesh differences explicitly reported",
+  "links": [
+    {
+      "name": "base_footprint",
+      "visual_count": 0,
+      "collision_count": 0,
+      "inertial_present": false
+    },
+    {
+      "name": "base_link",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "wheel_left_link",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "wheel_right_link",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "caster_back_right_link",
+      "visual_count": 0,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "caster_back_left_link",
+      "visual_count": 0,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "imu_link",
+      "visual_count": 0,
+      "collision_count": 0,
+      "inertial_present": false
+    },
+    {
+      "name": "base_scan",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "camera_link",
+      "visual_count": 0,
+      "collision_count": 1,
+      "inertial_present": false
+    },
+    {
+      "name": "camera_rgb_frame",
+      "visual_count": 0,
+      "collision_count": 0,
+      "inertial_present": false
+    },
+    {
+      "name": "camera_rgb_optical_frame",
+      "visual_count": 0,
+      "collision_count": 0,
+      "inertial_present": false
+    },
+    {
+      "name": "link1",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "link2",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "link3",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "link4",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "link5",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "gripper_left_link",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "dummy_mimic_fix",
+      "visual_count": 0,
+      "collision_count": 0,
+      "inertial_present": false
+    },
+    {
+      "name": "gripper_right_link",
+      "visual_count": 1,
+      "collision_count": 1,
+      "inertial_present": true
+    },
+    {
+      "name": "end_effector_link",
+      "visual_count": 1,
+      "collision_count": 0,
+      "inertial_present": false
+    }
+  ],
+  "joints": [
+    {
+      "name": "base_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "base_footprint"
+      },
+      "child": {
+        "link": "base_link"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0 0 0.010"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "wheel_left_joint",
+      "type": "continuous",
+      "parent": {
+        "link": "base_link"
+      },
+      "child": {
+        "link": "wheel_left_link"
+      },
+      "origin": {
+        "rpy": "-1.57 0 0",
+        "xyz": "0.0 0.144 0.023"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      },
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "wheel_right_joint",
+      "type": "continuous",
+      "parent": {
+        "link": "base_link"
+      },
+      "child": {
+        "link": "wheel_right_link"
+      },
+      "origin": {
+        "rpy": "-1.57 0 0",
+        "xyz": "0.0 -0.144 0.023"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      },
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "caster_back_right_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "base_link"
+      },
+      "child": {
+        "link": "caster_back_right_link"
+      },
+      "origin": {
+        "rpy": "-1.57 0 0",
+        "xyz": "-0.177 -0.064 -0.004"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "caster_back_left_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "base_link"
+      },
+      "child": {
+        "link": "caster_back_left_link"
+      },
+      "origin": {
+        "rpy": "-1.57 0 0",
+        "xyz": "-0.177 0.064 -0.004"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "imu_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "base_link"
+      },
+      "child": {
+        "link": "imu_link"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.0 0 0.068"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "scan_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "base_link"
+      },
+      "child": {
+        "link": "base_scan"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "-0.024 0 0.122"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "camera_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "base_link"
+      },
+      "child": {
+        "link": "camera_link"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.073 -0.011 0.084"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "camera_rgb_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "camera_link"
+      },
+      "child": {
+        "link": "camera_rgb_frame"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.003 0.011 0.009"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "camera_rgb_optical_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "camera_rgb_frame"
+      },
+      "child": {
+        "link": "camera_rgb_optical_frame"
+      },
+      "origin": {
+        "rpy": "-1.57 0 -1.57",
+        "xyz": "0 0 0"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "base_fixed",
+      "type": "fixed",
+      "parent": {
+        "link": "base_link"
+      },
+      "child": {
+        "link": "link1"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "-0.092 0.0 0.091"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "joint1",
+      "type": "revolute",
+      "parent": {
+        "link": "link1"
+      },
+      "child": {
+        "link": "link2"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.012 0.0 0.017"
+      },
+      "axis": {
+        "xyz": "0 0 1"
+      },
+      "limits": {
+        "effort": "1",
+        "lower": "-2.827433388230814",
+        "upper": "2.827433388230814",
+        "velocity": "4.8"
+      },
+      "mimic": {}
+    },
+    {
+      "name": "joint2",
+      "type": "revolute",
+      "parent": {
+        "link": "link2"
+      },
+      "child": {
+        "link": "link3"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.0 0.0 0.0595"
+      },
+      "axis": {
+        "xyz": "0 1 0"
+      },
+      "limits": {
+        "effort": "1",
+        "lower": "-1.790707812546182",
+        "upper": "1.5707963267948966",
+        "velocity": "4.8"
+      },
+      "mimic": {}
+    },
+    {
+      "name": "joint3",
+      "type": "revolute",
+      "parent": {
+        "link": "link3"
+      },
+      "child": {
+        "link": "link4"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.024 0 0.128"
+      },
+      "axis": {
+        "xyz": "0 1 0"
+      },
+      "limits": {
+        "effort": "1",
+        "lower": "-0.9424777960769379",
+        "upper": "1.382300767579509",
+        "velocity": "4.8"
+      },
+      "mimic": {}
+    },
+    {
+      "name": "joint4",
+      "type": "revolute",
+      "parent": {
+        "link": "link4"
+      },
+      "child": {
+        "link": "link5"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.124 0.0 0.0"
+      },
+      "axis": {
+        "xyz": "0 1 0"
+      },
+      "limits": {
+        "effort": "1",
+        "lower": "-1.790707812546182",
+        "upper": "2.0420352248333655",
+        "velocity": "4.8"
+      },
+      "mimic": {}
+    },
+    {
+      "name": "gripper_left_joint",
+      "type": "prismatic",
+      "parent": {
+        "link": "link5"
+      },
+      "child": {
+        "link": "gripper_left_link"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.0817 0.021 0.0"
+      },
+      "axis": {
+        "xyz": "0 1 0"
+      },
+      "limits": {
+        "effort": "1",
+        "lower": "-0.010",
+        "upper": "0.019",
+        "velocity": "4.8"
+      },
+      "mimic": {}
+    },
+    {
+      "name": "gripper_right_joint_mimic",
+      "type": "fixed",
+      "parent": {
+        "link": "link5"
+      },
+      "child": {
+        "link": "dummy_mimic_fix"
+      },
+      "origin": {},
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    },
+    {
+      "name": "gripper_right_joint",
+      "type": "prismatic",
+      "parent": {
+        "link": "link5"
+      },
+      "child": {
+        "link": "gripper_right_link"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.0817 -0.021 0"
+      },
+      "axis": {
+        "xyz": "0 -1 0"
+      },
+      "limits": {
+        "effort": "1",
+        "lower": "-0.010",
+        "upper": "0.019",
+        "velocity": "4.8"
+      },
+      "mimic": {
+        "joint": "gripper_left_joint",
+        "multiplier": "1"
+      }
+    },
+    {
+      "name": "end_effector_joint",
+      "type": "fixed",
+      "parent": {
+        "link": "link5"
+      },
+      "child": {
+        "link": "end_effector_link"
+      },
+      "origin": {
+        "rpy": "0 0 0",
+        "xyz": "0.126 0.0 0.0"
+      },
+      "axis": {},
+      "limits": {},
+      "mimic": {}
+    }
+  ],
+  "arm_lower_rad": [
+    -2.827433388230814,
+    -1.790707812546182,
+    -0.9424777960769379,
+    -1.790707812546182
+  ],
+  "arm_upper_rad": [
+    2.827433388230814,
+    1.5707963267948966,
+    1.382300767579509,
+    2.0420352248333655
+  ],
+  "shoulder_base_footprint_m": [
+    -0.08,
+    0.0,
+    0.1775
+  ],
+  "collision_shapes": 14,
+  "checked_self_collision_pairs": 56,
+  "gripper_opening_limits_m": [
+    -0.01,
+    0.019
+  ],
+  "conservative_max_inner_gap_m": 0.055700000762939454,
+  "original_unchanged": true
+}

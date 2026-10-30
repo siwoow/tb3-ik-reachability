@@ -1,0 +1,40 @@
+{
+  "executor_header_sha256": {
+    "include/pick_and_place/candidate_grasp.hpp": "f0971af3573126cce861333f98d40389a082d4963268b7ef65de2d63e5f20f66",
+    "include/pick_and_place/grasp_kinematics.hpp": "ba53dce5b68a7822794c1906875ce878c73a7f15b55d039c58608715f51f0cd7"
+  },
+  "source_sha256_at_audit": {
+    "/home/user/turtlebot3_ws/AGENTS.md": "200e5dffb6ff8e135dd3b482bf94fca693bbed36c2361c264861e43ba12185df",
+    "/home/user/turtlebot3_ws/odom_test/grasp_trial_odom.py": "1f3207d7ca717c09a0173a6a335fc02ba5dd726e80ccc0f000bd2b768fdf13fc",
+    "/home/user/turtlebot3_ws/odom_test/scan_move.py": "30e32658b5b21861b1056ff6106a17754e14998b67962685ad6d470c8ec64536",
+    "/home/user/turtlebot3_ws/src/cleanup_interfaces/srv/PlanCleanup.srv": "3afb51d89adee78d561da9bea6025fee59b7a62b692f788fe77b496a783614f8",
+    "/home/user/turtlebot3_ws/src/cleanup_interfaces/srv/PlaceObject.srv": "c4b4eb67c6c663ece875990afb5fe8f87c2ac3f6fe1ef4c40b4a94ff5c016189",
+    "/home/user/turtlebot3_ws/src/cleanup_interfaces/srv/EvaluateGrasp.srv": "818c4794921831a64b2eb571930070d48af9c0f110e2d1ad26195d33873cc271",
+    "/home/user/turtlebot3_ws/src/cleanup_interfaces/srv/CaptureObjects.srv": "ed2503c04f98341207777237eb357a329deda80f92f0713428f363031830569f",
+    "/home/user/turtlebot3_ws/src/cleanup_interfaces/msg/ObjectObservation.msg": "f06200a87438b774c73a84bea850b90a30b13c255cd3d362b2825d600003447f",
+    "/home/user/turtlebot3_ws/src/pick_and_place/test/test_pick_execution.py": "a477c0ecedabf5817ff266fd30df3d31649cf19d33aa991d9c67bb978b3f378f",
+    "/home/user/turtlebot3_ws/src/pick_and_place/src/pick_and_place_node.cpp": "fc91d4e04dc35ffaa97cc1444131d981c408946e6ff8733be6ff56e9a745fa43",
+    "/home/user/turtlebot3_ws/src/cleanup_task_manager/test/test_mission_flow.py": "b32a3096207a56c2203e3480b1e62bc7c0fa288537209069faa5d0c2be79e92b",
+    "/home/user/turtlebot3_ws/src/cleanup_task_manager/src/cleanup_task_manager_node.cpp": "20fa5dbad4b6ac1222f82367a4326da9a31f7cb8fe226bf6d716d7b055b29ecd",
+    "/home/user/turtlebot3_ws/src/cleanup_perception/cleanup_perception/grasp_trial.py": "4307872d640f91ebd0197e0a36b2a2313a946e8982f9d1b17201456fca9ba76c",
+    "/home/user/turtlebot3_ws/src/cleanup_perception/cleanup_perception/perception_node.py": "e5957954aa05017d6f774591fe7128c7989772bafad5766f75faab1cdce71e20",
+    "/home/user/turtlebot3_ws/src/cleanup_perception/cleanup_perception/candidate_hover_trial.py": "093b46ae32efca5e059d93bc52bd4d94e97cb0cfebaa2ddbadf0e58f7f8c4a30",
+    "/home/user/turtlebot3_ws/src/pick_and_place/include/pick_and_place/place_kinematics.hpp": "27ca40ea59c0d4a8b598bb7bea475a80d5161f499a122867660951d76bc03e48",
+    "/home/user/turtlebot3_ws/src/pick_and_place/include/pick_and_place/candidate_grasp.hpp": "f0971af3573126cce861333f98d40389a082d4963268b7ef65de2d63e5f20f66",
+    "/home/user/turtlebot3_ws/src/pick_and_place/include/pick_and_place/grasp_kinematics.hpp": "ba53dce5b68a7822794c1906875ce878c73a7f15b55d039c58608715f51f0cd7",
+    "/home/user/turtlebot3_ws/src/project_bringup/launch/project.launch.py": "69f1c4e25f1b502555064320273e39949f30805a79fa1b2ed73f926f471485d1"
+  },
+  "reviewed_services": {
+    "/cleanup/evaluate_grasp": "cleanup_interfaces/srv/EvaluateGrasp",
+    "/cleanup/capture_objects": "cleanup_interfaces/srv/CaptureObjects",
+    "/execute_pick_and_place": "std_srvs/srv/Trigger"
+  },
+  "actual_ik_equivalent_to_offline": false,
+  "differences": [
+    "Offline: URDF base_footprint frame, tool +X vertical down, pitch=+pi/2.",
+    "Executor: link1 frame, observed surface target, pitch -80..-15 deg, body penetration, +30mm offset from actual parameter.",
+    "Executor uses tighter limits [-2.8,-1.75,-.92,-1.75]..[2.8,1.55,1.35,2.0], extra .025rad margin and >=6mm finger clearance.",
+    "Executor L2=.13025m, ALPHA2=.1853 rounded; offline derives lengths/angles from URDF.",
+    "Live require_candidate=true evaluation is final authority; offline proposals never override it."
+  ]
+}

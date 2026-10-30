@@ -1,0 +1,103 @@
+{
+  "isaac_lab_loaded": true,
+  "usd_path": "/home/mobility/tb3_grasp_analysis/assets/usd/robot.usd",
+  "urdf_sha256": "2ec5da1f6796e94372e438686052d36b3a81e4ec9478a41ec1ec2aa86d44e91d",
+  "joint_names": [
+    "wheel_left_joint",
+    "wheel_right_joint",
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "gripper_left_joint",
+    "gripper_right_joint"
+  ],
+  "body_names": [
+    "base_footprint",
+    "base_link",
+    "link1",
+    "camera_link",
+    "caster_back_left_link",
+    "caster_back_right_link",
+    "imu_link",
+    "base_scan",
+    "wheel_left_link",
+    "wheel_right_link",
+    "link2",
+    "camera_rgb_frame",
+    "link3",
+    "camera_rgb_optical_frame",
+    "link4",
+    "link5",
+    "end_effector_link",
+    "gripper_left_link",
+    "gripper_right_link",
+    "dummy_mimic_fix"
+  ],
+  "arm_limits_rad": [
+    [
+      -2.8274331092834473,
+      2.8274331092834473
+    ],
+    [
+      -1.7907078266143799,
+      1.5707963705062866
+    ],
+    [
+      -0.9424777626991272,
+      1.3823007345199585
+    ],
+    [
+      -1.7907078266143799,
+      2.0420351028442383
+    ]
+  ],
+  "joint_velocity_limits": [
+    5.939047009418473e+36,
+    5.939047009418473e+36,
+    4.800000190734863,
+    4.800000190734863,
+    4.800000190734863,
+    4.800000190734863,
+    4.800000190734863,
+    4.800000190734863
+  ],
+  "joint_effort_limits": [
+    3.4028234663852886e+38,
+    3.4028234663852886e+38,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "mesh_prims": 35,
+  "collision_prims": 15,
+  "robot_collider_prims": [
+    "/World/Robot/base_link/collisions/mesh_0/box",
+    "/World/Robot/link1/collisions/mesh_0/box",
+    "/World/Robot/link2/collisions/link2/node_STL_BINARY_",
+    "/World/Robot/link3/collisions/link3/node_STL_BINARY_",
+    "/World/Robot/link4/collisions/link4/node_STL_BINARY_",
+    "/World/Robot/link5/collisions/link5/node_STL_BINARY_",
+    "/World/Robot/gripper_left_link/collisions/gripper_left_palm/node_STL_BINARY_",
+    "/World/Robot/gripper_right_link/collisions/gripper_right_palm/node_STL_BINARY_",
+    "/World/Robot/camera_link/collisions/mesh_0/box",
+    "/World/Robot/caster_back_left_link/collisions/mesh_0/box",
+    "/World/Robot/caster_back_right_link/collisions/mesh_0/box",
+    "/World/Robot/base_scan/collisions/mesh_0/cylinder",
+    "/World/Robot/wheel_left_link/collisions/mesh_0/cylinder",
+    "/World/Robot/wheel_right_link/collisions/mesh_0/cylinder"
+  ],
+  "empty_mesh_prims": [],
+  "fk_samples": 32,
+  "max_fk_position_error_m": 3.455477187329274e-07,
+  "max_fk_orientation_error_rad": 8.62755200035567e-07,
+  "max_authored_gripper_symmetry_error_m": 0.0,
+  "mimic_note": "URDF mimic retained; paired values authored for static FK. Dynamic mimic/contact not validated.",
+  "self_collisions_enabled": true,
+  "physics_grasp_success_validated": false,
+  "real_robot_commands_sent": false,
+  "validation_passed": true
+}

@@ -1,0 +1,676 @@
+{
+  "pick": {
+    "schema_version": 1,
+    "frame_id": "simulation_world",
+    "object_xyz_m": [
+      0.5,
+      0.0,
+      0.05
+    ],
+    "current_base_xyyaw": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "base_footprint_z_world_m": 0.0,
+    "robot_model_sha256": "2ec5da1f6796e94372e438686052d36b3a81e4ec9478a41ec1ec2aa86d44e91d",
+    "collision_backend": "FCL convex hulls + exact primitives, OBB broad phase",
+    "policy": {
+      "pitch_rad": 1.5707963267948966,
+      "approach_height_m": 0.06,
+      "lift_height_m": 0.06,
+      "cartesian_step_m": 0.005,
+      "joint_step_rad": 0.03490658503988659,
+      "joint_margin_rad": 0.03490658503988659,
+      "collision_margin_m": 0.0,
+      "floor_margin_m": 0.003,
+      "object_width_m": 0.03,
+      "floor_z_m": 0.0
+    },
+    "status": "feasible_candidates",
+    "best": {
+      "base_x_m": 0.35,
+      "base_y_m": 0.0,
+      "base_yaw_rad": 0.0,
+      "object_base_footprint_m": [
+        0.15000000000000002,
+        0.0,
+        0.05
+      ],
+      "distance_m": 0.35,
+      "final_yaw_change_rad": 0.0,
+      "differential_drive_turn_sum_rad": 0.0,
+      "suggested_drive_sign": 1,
+      "closing_yaw_world_rad": 1.5707963267948966,
+      "score_cost": 0.42068112796086177,
+      "branch": 1,
+      "q_grasp_rad": [
+        0.0,
+        0.9632746720903764,
+        -0.5049690044922852,
+        1.112490659196805
+      ],
+      "q_pregrasp_rad": [
+        0.0,
+        0.7789276138814021,
+        -0.6517055301925052,
+        1.4435742431059992
+      ],
+      "q_lift_rad": [
+        0.0,
+        0.7789276138814021,
+        -0.6517055301925052,
+        1.4435742431059992
+      ],
+      "joint_limit_margin_score": 0.2501505050245316,
+      "quality_score": 0.2931887203913822,
+      "min_floor_clearance_m": 0.029300000000000034,
+      "self_clearance_at_keyframes": {
+        "distance_m": 0.0008927261416957679,
+        "pair": [
+          "base_scan",
+          "link2"
+        ],
+        "keyframes_checked": 2
+      },
+      "interpolation_tcp_error_m": 1.415262216750919e-16,
+      "opening_m": 0.019,
+      "closing_m": 0.006149999618530272,
+      "checked_joint_samples": 13,
+      "corridor_offsets_m": [
+        0.0,
+        0.005,
+        0.01,
+        0.015,
+        0.02,
+        0.025,
+        0.03,
+        0.035,
+        0.04,
+        0.045,
+        0.05,
+        0.055,
+        0.06
+      ],
+      "corridor_q_rad": [
+        [
+          0.0,
+          0.9632746720903764,
+          -0.5049690044922852,
+          1.112490659196805
+        ],
+        [
+          0.0,
+          0.9417316122411501,
+          -0.5053706363481445,
+          1.1344353509018905
+        ],
+        [
+          0.0,
+          0.921178326158067,
+          -0.5077832352505345,
+          1.157401235887364
+        ],
+        [
+          0.0,
+          0.9016412565088672,
+          -0.51221894667108,
+          1.1813740169571094
+        ],
+        [
+          0.0,
+          0.8831518759414472,
+          -0.5187005133898208,
+          1.2063449642432698
+        ],
+        [
+          0.0,
+          0.8657470017712523,
+          -0.5272621524996692,
+          1.2323114775233135
+        ],
+        [
+          0.0,
+          0.8494693525604662,
+          -0.5379509201679702,
+          1.2592778944024001
+        ],
+        [
+          0.0,
+          0.8343684037579173,
+          -0.5508286782745899,
+          1.2872566013115687
+        ],
+        [
+          0.0,
+          0.8205016302589208,
+          -0.5659748402036486,
+          1.3162695367396244
+        ],
+        [
+          0.0,
+          0.8079362696062731,
+          -0.5834901673759916,
+          1.346350224564615
+        ],
+        [
+          0.0,
+          0.7967518112802949,
+          -0.6035020354718088,
+          1.3775465509864109
+        ],
+        [
+          0.0,
+          0.7870435343460969,
+          -0.6261718291009526,
+          1.4099246215497523
+        ],
+        [
+          0.0,
+          0.7789276138814021,
+          -0.6517055301925052,
+          1.4435742431059992
+        ]
+      ]
+    },
+    "candidates": [
+      {
+        "base_x_m": 0.35,
+        "base_y_m": 0.0,
+        "base_yaw_rad": 0.0,
+        "object_base_footprint_m": [
+          0.15000000000000002,
+          0.0,
+          0.05
+        ],
+        "distance_m": 0.35,
+        "final_yaw_change_rad": 0.0,
+        "differential_drive_turn_sum_rad": 0.0,
+        "suggested_drive_sign": 1,
+        "closing_yaw_world_rad": 1.5707963267948966,
+        "score_cost": 0.42068112796086177,
+        "branch": 1,
+        "q_grasp_rad": [
+          0.0,
+          0.9632746720903764,
+          -0.5049690044922852,
+          1.112490659196805
+        ],
+        "q_pregrasp_rad": [
+          0.0,
+          0.7789276138814021,
+          -0.6517055301925052,
+          1.4435742431059992
+        ],
+        "q_lift_rad": [
+          0.0,
+          0.7789276138814021,
+          -0.6517055301925052,
+          1.4435742431059992
+        ],
+        "joint_limit_margin_score": 0.2501505050245316,
+        "quality_score": 0.2931887203913822,
+        "min_floor_clearance_m": 0.029300000000000034,
+        "self_clearance_at_keyframes": {
+          "distance_m": 0.0008927261416957679,
+          "pair": [
+            "base_scan",
+            "link2"
+          ],
+          "keyframes_checked": 2
+        },
+        "interpolation_tcp_error_m": 1.415262216750919e-16,
+        "opening_m": 0.019,
+        "closing_m": 0.006149999618530272,
+        "checked_joint_samples": 13,
+        "corridor_offsets_m": [
+          0.0,
+          0.005,
+          0.01,
+          0.015,
+          0.02,
+          0.025,
+          0.03,
+          0.035,
+          0.04,
+          0.045,
+          0.05,
+          0.055,
+          0.06
+        ],
+        "corridor_q_rad": [
+          [
+            0.0,
+            0.9632746720903764,
+            -0.5049690044922852,
+            1.112490659196805
+          ],
+          [
+            0.0,
+            0.9417316122411501,
+            -0.5053706363481445,
+            1.1344353509018905
+          ],
+          [
+            0.0,
+            0.921178326158067,
+            -0.5077832352505345,
+            1.157401235887364
+          ],
+          [
+            0.0,
+            0.9016412565088672,
+            -0.51221894667108,
+            1.1813740169571094
+          ],
+          [
+            0.0,
+            0.8831518759414472,
+            -0.5187005133898208,
+            1.2063449642432698
+          ],
+          [
+            0.0,
+            0.8657470017712523,
+            -0.5272621524996692,
+            1.2323114775233135
+          ],
+          [
+            0.0,
+            0.8494693525604662,
+            -0.5379509201679702,
+            1.2592778944024001
+          ],
+          [
+            0.0,
+            0.8343684037579173,
+            -0.5508286782745899,
+            1.2872566013115687
+          ],
+          [
+            0.0,
+            0.8205016302589208,
+            -0.5659748402036486,
+            1.3162695367396244
+          ],
+          [
+            0.0,
+            0.8079362696062731,
+            -0.5834901673759916,
+            1.346350224564615
+          ],
+          [
+            0.0,
+            0.7967518112802949,
+            -0.6035020354718088,
+            1.3775465509864109
+          ],
+          [
+            0.0,
+            0.7870435343460969,
+            -0.6261718291009526,
+            1.4099246215497523
+          ],
+          [
+            0.0,
+            0.7789276138814021,
+            -0.6517055301925052,
+            1.4435742431059992
+          ]
+        ]
+      }
+    ],
+    "evaluated_feasible_goals": 2,
+    "navigation_collision_free": false,
+    "navigation_path_checked": false,
+    "arm_from_current_to_pregrasp_checked": false,
+    "continuous_collision_checked": false,
+    "contact_dynamics_validated": false,
+    "known_obstacle_boxes_checked": 0,
+    "score_is_success_probability": false,
+    "warnings": [
+      "Candidate poses are planning outputs only; no robot was moved.",
+      "No navigation path or continuous collision proof is provided, even when obstacle boxes are supplied.",
+      "Grasp feasibility uses enclosing collision convex hulls/exact primitives (or conservative OBB fallback) and a spherical width envelope; banana shape/friction/force are unmodelled.",
+      "Default self-collision padding is zero (original geometry); floor clearance is 3 mm. Increase padding explicitly to model uncertainty; no automatic relaxation occurs.",
+      "Validate camera-to-odom TF, timestamps, TCP calibration, stowed-arm base motion, and current-arm-to-pregrasp path separately."
+    ]
+  },
+  "place": {
+    "schema_version": 1,
+    "frame_id": "simulation_world",
+    "object_xyz_m": [
+      1.05,
+      0.0,
+      0.05
+    ],
+    "current_base_xyyaw": [
+      0.35,
+      0.0,
+      0.0
+    ],
+    "base_footprint_z_world_m": 0.0,
+    "robot_model_sha256": "2ec5da1f6796e94372e438686052d36b3a81e4ec9478a41ec1ec2aa86d44e91d",
+    "collision_backend": "FCL convex hulls + exact primitives, OBB broad phase",
+    "policy": {
+      "pitch_rad": 1.5707963267948966,
+      "approach_height_m": 0.06,
+      "lift_height_m": 0.06,
+      "cartesian_step_m": 0.005,
+      "joint_step_rad": 0.03490658503988659,
+      "joint_margin_rad": 0.03490658503988659,
+      "collision_margin_m": 0.0,
+      "floor_margin_m": 0.003,
+      "object_width_m": 0.03,
+      "floor_z_m": 0.0
+    },
+    "status": "feasible_candidates",
+    "best": {
+      "base_x_m": 0.9,
+      "base_y_m": 0.0,
+      "base_yaw_rad": 0.0,
+      "object_base_footprint_m": [
+        0.15000000000000002,
+        0.0,
+        0.05
+      ],
+      "distance_m": 0.55,
+      "final_yaw_change_rad": 0.0,
+      "differential_drive_turn_sum_rad": 0.0,
+      "suggested_drive_sign": 1,
+      "closing_yaw_world_rad": 1.5707963267948966,
+      "score_cost": 0.6206811279608618,
+      "branch": 1,
+      "q_grasp_rad": [
+        0.0,
+        0.9632746720903764,
+        -0.5049690044922852,
+        1.112490659196805
+      ],
+      "q_pregrasp_rad": [
+        0.0,
+        0.7789276138814021,
+        -0.6517055301925052,
+        1.4435742431059992
+      ],
+      "q_lift_rad": [
+        0.0,
+        0.7789276138814021,
+        -0.6517055301925052,
+        1.4435742431059992
+      ],
+      "joint_limit_margin_score": 0.2501505050245316,
+      "quality_score": 0.2931887203913822,
+      "min_floor_clearance_m": 0.029300000000000034,
+      "self_clearance_at_keyframes": {
+        "distance_m": 0.0008927261416957679,
+        "pair": [
+          "base_scan",
+          "link2"
+        ],
+        "keyframes_checked": 2
+      },
+      "interpolation_tcp_error_m": 1.415262216750919e-16,
+      "opening_m": 0.019,
+      "closing_m": 0.006149999618530272,
+      "checked_joint_samples": 13,
+      "corridor_offsets_m": [
+        0.0,
+        0.005,
+        0.01,
+        0.015,
+        0.02,
+        0.025,
+        0.03,
+        0.035,
+        0.04,
+        0.045,
+        0.05,
+        0.055,
+        0.06
+      ],
+      "corridor_q_rad": [
+        [
+          0.0,
+          0.9632746720903764,
+          -0.5049690044922852,
+          1.112490659196805
+        ],
+        [
+          0.0,
+          0.9417316122411501,
+          -0.5053706363481445,
+          1.1344353509018905
+        ],
+        [
+          0.0,
+          0.921178326158067,
+          -0.5077832352505345,
+          1.157401235887364
+        ],
+        [
+          0.0,
+          0.9016412565088672,
+          -0.51221894667108,
+          1.1813740169571094
+        ],
+        [
+          0.0,
+          0.8831518759414472,
+          -0.5187005133898208,
+          1.2063449642432698
+        ],
+        [
+          0.0,
+          0.8657470017712523,
+          -0.5272621524996692,
+          1.2323114775233135
+        ],
+        [
+          0.0,
+          0.8494693525604662,
+          -0.5379509201679702,
+          1.2592778944024001
+        ],
+        [
+          0.0,
+          0.8343684037579173,
+          -0.5508286782745899,
+          1.2872566013115687
+        ],
+        [
+          0.0,
+          0.8205016302589208,
+          -0.5659748402036486,
+          1.3162695367396244
+        ],
+        [
+          0.0,
+          0.8079362696062731,
+          -0.5834901673759916,
+          1.346350224564615
+        ],
+        [
+          0.0,
+          0.7967518112802949,
+          -0.6035020354718088,
+          1.3775465509864109
+        ],
+        [
+          0.0,
+          0.7870435343460969,
+          -0.6261718291009526,
+          1.4099246215497523
+        ],
+        [
+          0.0,
+          0.7789276138814021,
+          -0.6517055301925052,
+          1.4435742431059992
+        ]
+      ]
+    },
+    "candidates": [
+      {
+        "base_x_m": 0.9,
+        "base_y_m": 0.0,
+        "base_yaw_rad": 0.0,
+        "object_base_footprint_m": [
+          0.15000000000000002,
+          0.0,
+          0.05
+        ],
+        "distance_m": 0.55,
+        "final_yaw_change_rad": 0.0,
+        "differential_drive_turn_sum_rad": 0.0,
+        "suggested_drive_sign": 1,
+        "closing_yaw_world_rad": 1.5707963267948966,
+        "score_cost": 0.6206811279608618,
+        "branch": 1,
+        "q_grasp_rad": [
+          0.0,
+          0.9632746720903764,
+          -0.5049690044922852,
+          1.112490659196805
+        ],
+        "q_pregrasp_rad": [
+          0.0,
+          0.7789276138814021,
+          -0.6517055301925052,
+          1.4435742431059992
+        ],
+        "q_lift_rad": [
+          0.0,
+          0.7789276138814021,
+          -0.6517055301925052,
+          1.4435742431059992
+        ],
+        "joint_limit_margin_score": 0.2501505050245316,
+        "quality_score": 0.2931887203913822,
+        "min_floor_clearance_m": 0.029300000000000034,
+        "self_clearance_at_keyframes": {
+          "distance_m": 0.0008927261416957679,
+          "pair": [
+            "base_scan",
+            "link2"
+          ],
+          "keyframes_checked": 2
+        },
+        "interpolation_tcp_error_m": 1.415262216750919e-16,
+        "opening_m": 0.019,
+        "closing_m": 0.006149999618530272,
+        "checked_joint_samples": 13,
+        "corridor_offsets_m": [
+          0.0,
+          0.005,
+          0.01,
+          0.015,
+          0.02,
+          0.025,
+          0.03,
+          0.035,
+          0.04,
+          0.045,
+          0.05,
+          0.055,
+          0.06
+        ],
+        "corridor_q_rad": [
+          [
+            0.0,
+            0.9632746720903764,
+            -0.5049690044922852,
+            1.112490659196805
+          ],
+          [
+            0.0,
+            0.9417316122411501,
+            -0.5053706363481445,
+            1.1344353509018905
+          ],
+          [
+            0.0,
+            0.921178326158067,
+            -0.5077832352505345,
+            1.157401235887364
+          ],
+          [
+            0.0,
+            0.9016412565088672,
+            -0.51221894667108,
+            1.1813740169571094
+          ],
+          [
+            0.0,
+            0.8831518759414472,
+            -0.5187005133898208,
+            1.2063449642432698
+          ],
+          [
+            0.0,
+            0.8657470017712523,
+            -0.5272621524996692,
+            1.2323114775233135
+          ],
+          [
+            0.0,
+            0.8494693525604662,
+            -0.5379509201679702,
+            1.2592778944024001
+          ],
+          [
+            0.0,
+            0.8343684037579173,
+            -0.5508286782745899,
+            1.2872566013115687
+          ],
+          [
+            0.0,
+            0.8205016302589208,
+            -0.5659748402036486,
+            1.3162695367396244
+          ],
+          [
+            0.0,
+            0.8079362696062731,
+            -0.5834901673759916,
+            1.346350224564615
+          ],
+          [
+            0.0,
+            0.7967518112802949,
+            -0.6035020354718088,
+            1.3775465509864109
+          ],
+          [
+            0.0,
+            0.7870435343460969,
+            -0.6261718291009526,
+            1.4099246215497523
+          ],
+          [
+            0.0,
+            0.7789276138814021,
+            -0.6517055301925052,
+            1.4435742431059992
+          ]
+        ]
+      }
+    ],
+    "evaluated_feasible_goals": 2,
+    "navigation_collision_free": false,
+    "navigation_path_checked": false,
+    "arm_from_current_to_pregrasp_checked": false,
+    "continuous_collision_checked": false,
+    "contact_dynamics_validated": false,
+    "known_obstacle_boxes_checked": 0,
+    "score_is_success_probability": false,
+    "warnings": [
+      "Candidate poses are planning outputs only; no robot was moved.",
+      "No navigation path or continuous collision proof is provided, even when obstacle boxes are supplied.",
+      "Grasp feasibility uses enclosing collision convex hulls/exact primitives (or conservative OBB fallback) and a spherical width envelope; banana shape/friction/force are unmodelled.",
+      "Default self-collision padding is zero (original geometry); floor clearance is 3 mm. Increase padding explicitly to model uncertainty; no automatic relaxation occurs.",
+      "Validate camera-to-odom TF, timestamps, TCP calibration, stowed-arm base motion, and current-arm-to-pregrasp path separately."
+    ]
+  }
+}
